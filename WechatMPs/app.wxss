@@ -12,6 +12,7 @@
 page {
   background-color: #191414;
   color: #fff;
-  font-family: 'Helvetica Neue', sans-serif
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
 }
 

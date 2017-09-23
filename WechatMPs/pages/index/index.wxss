@@ -17,5 +17,15 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+    margin-top: 800rpx;
+}
+button {
+  background-color: #1DB954;
+  color: #fff;
+  border-radius: 100rpx;
+}
+
+.button-hover {
+  color:rgba(0, 0, 0, 0.6);
+  background-color: #03BB4F;
 }

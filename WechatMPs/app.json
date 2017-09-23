@@ -6,7 +6,6 @@
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#1DB954",
-    "backgroundColor": "#1DB954",
     "navigationBarTitleText": "Spotify",
     "navigationBarTextStyle": "white"
   }
