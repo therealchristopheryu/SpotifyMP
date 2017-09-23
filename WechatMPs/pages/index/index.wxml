@@ -1,4 +1,5 @@
-<view class="container">
+<view class="landing_container">
+  <image src="../../images/logo.png" mode="aspectFit" class="logo"></image>
   <view class="usermotto">
     <button class="user-motto">Let's play some tunes!</button>
   </view>

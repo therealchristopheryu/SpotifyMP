@@ -5,27 +5,35 @@
   align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
 .userinfo-nickname {
   color: #aaa;
 }
 
 .usermotto {
-    margin-top: 800rpx;
+    margin-top: 400rpx;
 }
 button {
   background-color: #1DB954;
   color: #fff;
   border-radius: 100rpx;
+  font-weight: 500;
 }
 
 .button-hover {
   color:rgba(0, 0, 0, 0.6);
   background-color: #03BB4F;
 }
+
+.logo {
+  width: 40%;
+}
+
+.landing_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0 0 0; 
+  box-sizing: border-box;
+} 
