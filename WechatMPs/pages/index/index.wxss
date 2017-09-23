@@ -5,18 +5,48 @@
   align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
 .userinfo-nickname {
   color: #aaa;
 }
 
 .usermotto {
-  margin-top: 200px;
-  color: #FFFFFF;
+    margin-top: 200rpx;
+}
+button {
+  background-color: #1DB954; 
+  color: #fff;
+  border-radius: 100rpx;
+  font-weight: 500;
+}
+
+.button-hover {
+   color: #1db954; 
+   background-color: #1aa34a;
+   transition-duration: 1s;
+}
+
+.logo {
+  width: 40%;
+}
+
+.landing_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0 0 0; 
+  box-sizing: border-box;
+} 
+
+.logo-name {
+  font-size: 80rpx;
+  font-weight: 600;
+  letter-spacing: 5.2rpx;
+  margin-top: -83rpx;
+}
+
+.slogan {
+  margin-top: 180rpx;
+  font-size: 60rpx;
 }

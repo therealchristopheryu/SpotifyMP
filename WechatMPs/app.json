@@ -1,13 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
+    "pages/music_player/music_player"
     "pages/songs/songs",
     "pages/playlists/playlists",
     "pages/playlist/playlist"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1DB954",
     "navigationBarTitleText": "Spotify",
     "navigationBarTextStyle":"black"
   },
