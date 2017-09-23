@@ -9,6 +9,12 @@ AV.init({
 });
 App({
   onLaunch: function () {
+
+    wx.getUserInfo({
+      success: function(res) {
+        console.log(res.userInfo)
+      }
+    })
   let current_user = wx.getStorageSync('user')
   // console.log('this is the locally stored user', user)
   new AV.Query('Users')
@@ -33,7 +39,8 @@ App({
     })
 
   },
+  
   globalData: {
     user: null
   }
-})
+});

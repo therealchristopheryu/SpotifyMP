@@ -2,29 +2,34 @@
   "pages": [
     "pages/index/index",
     "pages/music_player/music_player"
+    "pages/songs/songs",
+    "pages/playlists/playlists",
+    "pages/playlist/playlist"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#1DB954",
     "navigationBarTitleText": "Spotify",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle":"black"
   },
   "tabBar": {
-      "color": "#aaa",
-      "selectedColor": "#fff",
-      "borderStyle": "black",
-      "backgroundColor": "#212121",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "text",
-      "iconPath": "images/logo.png",
-      "selectedIconPath": "images/logo.png"
-    },
-    {
-      "pagePath": "pages/music_player/music_player",
-      "text": "text",
-      "iconPath": "images/logo.png",
-      "selectedIconPath": "images/logo.png"
-    }]
+    "color": "#aaa",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#212121",
+    "list": [
+      {
+        "pagePath": "pages/songs/songs",
+        "text": "Songs",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/music.png"
+      },
+      {
+        "pagePath": "pages/playlists/playlists",
+        "text": "Playlists",
+        "iconPath": "images/playlist.png",
+        "selectedIconPath": "images/playlist.png"
+      }
+    ]
   }
 }
