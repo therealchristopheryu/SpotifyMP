@@ -3,6 +3,6 @@
   <text class="logo-name">Spotify</text>
   <text class="slogan">Music for everyone.</text>
   <view class="usermotto">
-    <button class="user-motto">Let's play some tunes!</button>
+    <button class="user-motto" bindtap="enterTap">Let's play some tunes!</button>
   </view>
 </view>
