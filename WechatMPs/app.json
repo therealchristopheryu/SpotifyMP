@@ -8,5 +8,23 @@
     "navigationBarBackgroundColor": "#1DB954",
     "navigationBarTitleText": "Spotify",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+      "color": "#aaa",
+      "selectedColor": "#fff",
+      "borderStyle": "black",
+      "backgroundColor": "#212121",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "text",
+      "iconPath": "images/logo.png",
+      "selectedIconPath": "images/logo.png"
+    },
+    {
+      "pagePath": "pages/music_player/music_player",
+      "text": "text",
+      "iconPath": "images/logo.png",
+      "selectedIconPath": "images/logo.png"
+    }]
   }
 }
