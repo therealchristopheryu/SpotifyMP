@@ -1,6 +1,9 @@
 //app.js
 const AV = require('./utils/leancloud.js');
+<<<<<<< HEAD
 const User = require('./models/user.js');
+=======
+>>>>>>> c9288e6deccfb637731de5340764206a4775e5df
 
 // LeanCloud 应用的 ID 和 Key
 AV.init({
