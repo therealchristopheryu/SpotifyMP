@@ -1,12 +1,34 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/songs/songs",
+    "pages/playlists/playlists",
+    "pages/playlist/playlist"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Spotify",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#212121",
+    "list": [
+      {
+        "pagePath": "pages/songs/songs",
+        "text": "Songs",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/music.png"
+      },
+      {
+        "pagePath": "pages/playlists/playlists",
+        "text": "Playlists",
+        "iconPath": "images/playlist.png",
+        "selectedIconPath": "images/playlist.png"
+      }
+    ]
   }
 }

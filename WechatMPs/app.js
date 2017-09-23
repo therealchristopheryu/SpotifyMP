@@ -1,9 +1,6 @@
 //app.js
 const AV = require('./utils/leancloud.js');
-<<<<<<< HEAD
 const User = require('./models/user.js');
-=======
->>>>>>> c9288e6deccfb637731de5340764206a4775e5df
 
 // LeanCloud 应用的 ID 和 Key
 AV.init({
@@ -12,6 +9,12 @@ AV.init({
 });
 App({
   onLaunch: function () {
+
+    wx.getUserInfo({
+      success: function(res) {
+        console.log(res.userInfo)
+      }
+    })
   let current_user = wx.getStorageSync('user')
   // console.log('this is the locally stored user', user)
   new AV.Query('Users')
@@ -36,7 +39,8 @@ App({
     })
 
   },
+  
   globalData: {
     user: null
   }
-})
+});

@@ -9,6 +9,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <button class="user-motto">Let's play some tunes.</button>
+    <text class="user-motto">Let's play some tunes.</text>
   </view>
 </view>
