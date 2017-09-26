@@ -1,0 +1,8 @@
+<view class="landing_container">
+  <image src="../../images/logo.png" mode="aspectFit" class="logo"></image>
+  <text class="logo-name">Spotify</text>
+  <text class="slogan">Music for everyone.</text>
+  <view class="usermotto">
+    <button class="user-motto" bindtap="enterTap">Let's play some tunes!</button>
+  </view>
+</view>

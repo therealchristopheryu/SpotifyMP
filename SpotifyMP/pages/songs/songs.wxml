@@ -1,0 +1,5 @@
+<!--pages/songs/songs.wxml-->
+<view>Songs should be loading...</view>
+<view wx:for="{{Songs}}" wx:for-item="Song" wx:key="name">
+  {{Song.name}}
+</view>
